@@ -11,10 +11,10 @@
     "name": "Michael Shilman",
     "email": "michael@lab80.co"
   },
+  "main": "dist/index.js",
   "files": [
     "dist"
   ],
-  "main": "dist/index.js",
   "scripts": {
     "build": "babel src -d dist",
     "build-docs": "build-storybook --docs",
@@ -45,6 +45,7 @@
     ]
   },
   "dependencies": {
+    "core-js": "^3.6.4",
     "keycode": "^2.2.0",
     "polished": "^3.4.1",
     "prismjs": "1.17.1",
@@ -52,7 +53,8 @@
     "react-popper-tooltip": "^2.9.1",
     "recompose": "^0.30.0",
     "styled-components": "^5.0.0",
-    "uuid": "^3.3.3"
+    "uuid": "^3.3.3",
+    "yarn": "^1.21.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.6.4",
@@ -93,7 +95,7 @@
     "react-dom": "^16.8.3",
     "sort-package-json": "^1.21.0",
     "storybook-addon-deps": "^1.0.9",
-    "storybook-chromatic": "^3.0.3"
+    "storybook-chromatic": "^3.5.0"
   },
   "peerDependencies": {
     "prop-types": "^15.5.4",
